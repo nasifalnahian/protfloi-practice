@@ -1,47 +1,39 @@
 body{
-    display: flex; 
-    }
-
-    section{
-        background-image: url(picture/top-banner.png);
-        background-repeat: no-repeat;
-        background-attachment:fixed;
-        background-size: cover;
-        font-family: 'Roboto Slab', serif;
-        display: flex;
-        padding-left:4%;
-
-    }
-.header  {
-    font-size: 20px;
-    padding-left: 7%;
-    padding-top: 2%;
-
+    font-family: 'Otomanopee One', sans-serif;
+   background-color: rgba(161, 241, 241, 0.233);
+   background-image: linear-gradient( rgba(68, 176, 209, 0.815), rgba(128, 209, 205, 0.74));
+   background-image: url(picture/top-banner.png);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 0%;
 }
-.hh{
-    font-size: 30px;
+h1{
+    font-size: 50px;
     
-}
-.picture { 
-    
-    padding-left: 40%;
-    margin-top: -50px;
-  
-}
-.pp
-{
-    font-size:15px;
 }
 .name{
-    color: rgba(61, 191, 214, 0.856);
+    color: rgb(248, 248, 248);
+    background-image: linear-gradient( rgba(11, 120, 153, 0.815), rgb(132, 243, 237));
 }
-.link-button{
-    padding: 10px 40px;
-    text-decoration: none;
-    background-color: lightskyblue;
-    background-image: linear-gradient(rgb(245, 245, 245) skyblue);
-    color: ivory;
-    font-size: 700;
-    border-radius: 100px;
+section{
     display: flex;
+
+}
+.first{
+    width: 50%;
+    padding: 5%;
+
+}
+.first img{
+    width: 60%;
+    padding-left: 40%;
+}
+.l-b{
+    text-decoration: none;
+    background-image: linear-gradient( rgba(68, 191, 228, 0.87), rgb(233, 233, 233));
+    padding: 10px 40px;
+    color: snow;
+    font-size: 900;
+    border-radius: px;
 }
